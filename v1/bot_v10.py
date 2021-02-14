@@ -45,4 +45,4 @@ rest = get_text_from_img(cv2.imread('rest.png')).split(' ', 1)[1]
 
 # total text
 text = first_word + ' ' + rest
-keyboard.write(text, delay=0.057) # close to 200 WPM
+keyboard.write(text, delay=0.07) # close to 200 WPM
